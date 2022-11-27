@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/sonnolento/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/sonnolento/frontend-project-44/actions)",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/sonnolento/frontend-project-44.git"
   },
-  "author": "",
+  
+  "author": "Ivan Kabatskiy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sonnolento/frontend-project-44/issues"
